@@ -26,7 +26,7 @@ require([
   FeatureLayer
 ) {
   const urlParams = new URLSearchParams(window.location.search);
-  const configUrl = urlParams.get("viewer") || "North_Haven.json";
+  const configUrl = urlParams.get("viewer") || "North_Haven";
 
   fetch(configUrl)
     .then((response) => response.json())
