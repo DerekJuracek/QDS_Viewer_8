@@ -12,7 +12,7 @@
       "title": "Land Influence",
       "fieldName": "Influence_Type",
       "isVisible": false,
-      "orderByField": "OBJECTID_1",
+      "orderByField": "OBJECTID",
       "combobox1": "combo11",
       "combobox2": "combo12"
     },
